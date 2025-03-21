@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A work page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid hsl(147, 74%, 22%);
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Student details</h1>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Lecturers</h2>
+    <ol type="I">
+        <li>Mr.Daniel Muuo </li>
+        <li>Dr.Mocheche Davis</li>
+        <li> Dr.Tabitha Okama</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>Image from Pexels</h2>
+    <img src="image.png" alt="Image not there">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Donalad  Mekatik</td>
+                <td>Donhomn street</td>
+                <td>(+254)7188815</td>
+                <td>donme@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane njeri</td>
+                <td>Lavington ,tree</td>
+                <td>(+254)7578775 </td>
+                <td>jjeane@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Denns Miruka</td>
+                <td>001 nairobi west,street</td>
+                <td>(+254)73695824</td>
+                <td>mirukenno@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Emily Akoth</td>
+                <td>Kisii west, City</td>
+                <td>(+254)6789508</td>
+                <td>akemily@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mercy Nduta</td>
+                <td>machakos central,</td>
+                <td>(+254)7001234</td>
+                <td>ndutscye5@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name (required):</label>
+        <input type="text" id="name" name="name" placeholder="Enter name" required>
+        <br><br>
+
+        <label for="email">Email (required):</label>
+        <input type="email" id="email" name="email" placeholder="Enter email" required>
+        <br><br>
+
+        <label for="password">Password (required):</label>
+        <input type="password" id="password" name="password" placeholder="Enter  password" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <label>Interests:</label>
+
+        <br>
+        <br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <br><br>
+
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+            <option value="">Select your course</option>
+            <option value="finance">finance</option>
+            <option value="Mathematics">mathematics</option>
+            <option value="Medicine">Medicine</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Multimedia Elements -->
+    <h2>Multimedia Elements</h2>
+    <h3>Audio Example</h3>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h3>Video Example</h3>
+    <video width="320" height="240" controls>
+        <source src="jewlry.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
